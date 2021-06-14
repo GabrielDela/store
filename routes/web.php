@@ -15,6 +15,8 @@ Route::prefix('user')->group(function () {
     Route::post('update', [UserController::class, 'update']);
 });
 
+// Route::resource('users', UsersController::class);
+
 Route::get('/', function () {
     return view('app');
 });

@@ -25,6 +25,9 @@ Route::post('/cart/remove/{user_id}/{product_id}', [CartController::class, 'remo
 Route::post('/cart/delete/{user_id}/{product_id}', [CartController::class, 'delete']);
 Route::post('/cart/clear/{user_id}', [CartController::class, 'clear']);
 
+// Route::middleware('auth')->group([
+
+// ]);
 // Route::get('/cart', function(){
 
 //         Cart::factory()
