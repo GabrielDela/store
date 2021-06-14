@@ -45,5 +45,11 @@ module.exports = [{
         name: 'user',
         component: () =>
             import ('./pages/UserPage.vue')
+    },
+    {
+        path: '/dashboard',
+        name: 'dashboard',
+        component: () =>
+            import ('./dashboard/Index.vue')
     }
 ];
