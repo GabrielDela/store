@@ -38569,7 +38569,7 @@ module.exports = [{
   path: '/product/:slug',
   name: 'products.show',
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 6).then(__webpack_require__.bind(null, /*! ./pages/Show.vue */ "./resources/js/pages/Show.vue"));
+    return __webpack_require__.e(/*! import() */ 7).then(__webpack_require__.bind(null, /*! ./pages/Show.vue */ "./resources/js/pages/Show.vue"));
   }
 }, {
   path: '/cart',
@@ -38587,25 +38587,25 @@ module.exports = [{
   path: '/summary',
   name: 'order.summary',
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 7).then(__webpack_require__.bind(null, /*! ./pages/Summary.vue */ "./resources/js/pages/Summary.vue"));
+    return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ./pages/Summary.vue */ "./resources/js/pages/Summary.vue"));
   }
 }, {
   path: '/register',
   name: 'register',
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.bind(null, /*! ./pages/Register.vue */ "./resources/js/pages/Register.vue"));
+    return __webpack_require__.e(/*! import() */ 6).then(__webpack_require__.bind(null, /*! ./pages/Register.vue */ "./resources/js/pages/Register.vue"));
   }
 }, {
   path: '/login',
   name: 'login',
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ./pages/Login.vue */ "./resources/js/pages/Login.vue"));
+    return __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.bind(null, /*! ./pages/Login.vue */ "./resources/js/pages/Login.vue"));
   }
 }, {
   path: '/user',
   name: 'user',
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ./pages/UserPage.vue */ "./resources/js/pages/UserPage.vue"));
+    return __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ./pages/UserPage.vue */ "./resources/js/pages/UserPage.vue"));
   }
 }];
 
